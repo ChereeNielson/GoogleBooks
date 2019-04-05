@@ -18,8 +18,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 | _Behavior_ | _Input_ | _Output_ |
 |:---------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|
 | Search a Book | Enter Keywords: React | Result: Books with "React" in Title |
-| Add a book to shelves | Select Shelf: "Currently Reading" | Result: Book now on "Currently Reading" shelf |
-| Move book between shelves | Select Shelf: "Read" | Result: Book is now on "Read" shelf |
+| Add a Book to shelves | Select Shelf: "Currently Reading" | Result: Book now on "Currently Reading" shelf |
+| Move Book between shelves | Select Shelf: "Read" | Result: Book is now on "Read" shelf |
 
 ----
 ### **Setup/Installation Requirements**
@@ -27,12 +27,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 To run locally:
 
 1. Make sure Node.js and npm are installed on your computer
-* npm is automatically installed on your computer when you download Node.js
+  * npm is automatically installed on your computer when you download Node.js
 
 2. Click the below link to install Node.js 
-* https://nodejs.org/en/download/
+  * https://nodejs.org/en/download/
 
-then
+then...
 
 #### Clone this repository: https://github.com/ChereeNielson/GoogleBooks
 
@@ -45,6 +45,7 @@ then
 * ```npm start``` or ```yarn start``` 
 
 ---
+### Hosted on Heroku
 
 A working version of the application can be found at [https://herokuapp.com/](https://herokuapp.com/ "React Google Books Search")
 
