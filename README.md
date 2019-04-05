@@ -5,6 +5,12 @@
 
 A React-based Google Books Search app utilizes React lifecycle methods to query and display books based on user searches, and uses Node, Express and MongoDB so that users can save books to review or purchase later.
 
+### **Instructions**
+- Create `React components`
+- Work with helper/util functions
+- Utilize `React lifecycle methods` to query and display books based on user searches
+- Use `Node`, `Express`, and `MongoDB` so that users can save books to review or purchase later
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ----
@@ -20,19 +26,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To run locally:
 
-##### 1. Make sure Node.js and npm are installed on your computer
+1. Make sure Node.js and npm are installed on your computer
 * npm is automatically installed on your computer when you download Node.js
 
-##### 2. Click the below link to install Node.js 
+2. Click the below link to install Node.js 
 * https://nodejs.org/en/download/
 
 then
 
-#### Clone this repository: https://github.com/ChereeNielson
+#### Clone this repository: https://github.com/ChereeNielson/GoogleBooks
 
-```git clone https://github.com/ChereeNielson```
+```git clone https://github.com/ChereeNielson/GoogleBooks```
 
-#### OPEN project folder ('googlebooks') in Code Editor of choice
+#### OPEN project folder ('GoogleBooks') in Code Editor of choice
 
 * To start the project on a development server run the following commands from the command line
 * ```npm install``` or ```yarn install```
@@ -45,19 +51,14 @@ A working version of the application can be found at [https://herokuapp.com/](ht
 ---
 ## What This Application Does
 
-![Search books](./images/search.png)
+![Search Books](./images/search.png)
 * Search - User can search for books via the `Google Books API` and render them here. User has the option to "View" a book, bringing them to the book on Google Books, or "Save" a book, saving it to the `Mongo` database.
 
-![Save books](./images/saved.png)
+![Save Books](./images/saved.png)
 * Saved - Renders all books saved to the `Mongo` database. User has an option to "View" the book, bringing them to the book on Google Books, or "Delete" a book, removing it from the `Mongo` database.
 
 
 ## **Technologies Used**
-- Create `React components`
-- Work with helper/util functions
-- Utilize `React lifecycle methods` to query and display books based on user searches
-- Use `Node`, `Express`, and `MongoDB` so that users can save books to review or purchase later
-
 * HTML
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Webpack.js](https://webpack.js.org/guides/getting-started/)
