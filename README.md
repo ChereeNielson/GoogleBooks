@@ -13,15 +13,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Use `Node`, `Express`, and `MongoDB` so that users can save books to review or purchase later
 
 ----
-### **Specifications**
+### Specifications
 | _Behavior_ | _Input_ | _Output_ |
 |:---------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|
-| Search a Book | Enter Keywords: React | Result: Books with "React" in Title |
-| Add a Book to shelves | Select Shelf: "Currently Reading" | Result: Book now on "Currently Reading" shelf |
-| Move Book between shelves | Select Shelf: "Read" | Result: Book is now on "Read" shelf |
+| Search a Book | Enter Keywords: Princess Bride | Result: Books with "Princess Bride" in Title |
+| View a Book | Select View: Redirects to Google Books | Result: View or Purchase Book |
+| Save a Book | Select Save: Book now Saved | Result: Book Saved to Library |
+| Delete a Book | Select Delete: Book now Deleted | Result: Book Deleted from Library |
 
 ----
-### **Setup/Installation Requirements**
+### Setup/Installation Requirements
 
 To run locally:
 
@@ -49,7 +50,7 @@ then...
 A working version of the application can be found at [https://herokuapp.com/](https://herokuapp.com/ "React Google Books Search")
 
 ---
-## What This Application Does
+### What This Application Does
 
 ![Search Books](./images/search.png)
 * Search - User can search for books via the `Google Books API` and render them here. User has the option to "View" a book, bringing them to the book on Google Books, or "Save" a book, saving it to the `Mongo` database.
@@ -58,7 +59,7 @@ A working version of the application can be found at [https://herokuapp.com/](ht
 * Saved - Renders all books saved to the `Mongo` database. User has an option to "View" the book, bringing them to the book on Google Books, or "Delete" a book, removing it from the `Mongo` database.
 
 ---
-## **Technologies Used**
+### Technologies Used
 * HTML
 * [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Webpack.js](https://webpack.js.org/guides/getting-started/)
@@ -71,6 +72,6 @@ A working version of the application can be found at [https://herokuapp.com/](ht
 * [npm](https://docs.npmjs.com/)
 
 ----
-### **Built By**
+### Built By
 
 [Cheree Nielson](https://github.com/ChereeNielson) © 2019
