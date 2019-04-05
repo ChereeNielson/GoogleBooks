@@ -1,0 +1,10 @@
+.has-background-cyan {
+    background-color: #B4CDCD;
+    height: 50px;
+}
+
+p {
+  text-align: center;
+  text-transform: none;
+  font-size: 40px;
+}

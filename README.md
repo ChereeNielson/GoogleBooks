@@ -1,68 +1,75 @@
+# Google Books Search
+
+----
+### **Overview**
+
+A React-based Google Books Search app utilizes React lifecycle methods to query and display books based on user searches, and uses Node, Express and MongoDB so that users can save books to review or purchase later.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+----
+### **Specifications**
+| _Behavior_ | _Input_ | _Output_ |
+|:---------------------------------------------------------------------:|:---------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------:|
+| Search a Book | Enter Keywords: React | Result: Books with "React" in Title |
+| Add a book to shelves | Select Shelf: "Currently Reading" | Result: Book now on "Currently Reading" shelf |
+| Move book between shelves | Select Shelf: "Read" | Result: Book is now on "Read" shelf |
 
-In the project directory, you can run:
+----
+### **Setup/Installation Requirements**
 
-### `npm start`
+To run locally:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+##### 1. Make sure Node.js and npm are installed on your computer
+* npm is automatically installed on your computer when you download Node.js
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+##### 2. Click the below link to install Node.js 
+* https://nodejs.org/en/download/
 
-### `npm test`
+then
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Clone this repository: https://github.com/ChereeNielson
 
-### `npm run build`
+```git clone https://github.com/ChereeNielson```
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### OPEN project folder ('googlebooks') in Code Editor of choice
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+* To start the project on a development server run the following commands from the command line
+* ```npm install``` or ```yarn install```
+* ```npm start``` or ```yarn start``` 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+A working version of the application can be found at [https://herokuapp.com/](https://herokuapp.com/ "React Google Books Search")
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
+## What This Application Does
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Search books](./images/search.png)
+* Search - User can search for books via the `Google Books API` and render them here. User has the option to "View" a book, bringing them to the book on Google Books, or "Save" a book, saving it to the `Mongo` database.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Save books](./images/saved.png)
+* Saved - Renders all books saved to the `Mongo` database. User has an option to "View" the book, bringing them to the book on Google Books, or "Delete" a book, removing it from the `Mongo` database.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## **Technologies Used**
+- Create `React components`
+- Work with helper/util functions
+- Utilize `React lifecycle methods` to query and display books based on user searches
+- Use `Node`, `Express`, and `MongoDB` so that users can save books to review or purchase later
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* HTML
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [Webpack.js](https://webpack.js.org/guides/getting-started/)
+* [Node](https://nodejs.org/en/docs/)
+* [Express](http://expressjs.com/)
+* [MongoDB](https://docs.mongodb.com/)
+* [React](https://reactjs.org/docs/getting-started.html)
+* [Babel](https://babeljs.io/docs/en/)
+* [Yarn](https://yarnpkg.com/en/)
+* [npm](https://docs.npmjs.com/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+----
+### **Built By**
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[Cheree Nielson](https://github.com/ChereeNielson) © 2019
