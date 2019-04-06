@@ -43,7 +43,7 @@ class Saved extends Component {
               <div className="p-2 bd-highlight">
                 <img
                   className="image-250"
-                  src="/images/antiquebooks.jpg"
+                  src="/images/books.jpg"
                   alt="Google Books Search"
                 />
               </div>
@@ -53,7 +53,7 @@ class Saved extends Component {
                 </h1>
 
                 <h2 className="heading-subtitle mx-sm-3 mb-2 text-center">
-                  Showing {count} books in the Library
+                  Showing {count} books in your Library
                 </h2>
               </div>
             </div>
@@ -86,7 +86,7 @@ class Saved extends Component {
             ) : (
               <div className="mockup-content">
                 <h2 className="brand-title text-center">
-                  No saved books in the Library
+                  No saved books in your Library
                 </h2>
               </div>
             )}
