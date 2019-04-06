@@ -28,11 +28,11 @@ class Search extends Component {
         })
       )
       .catch(() => {
-        toast.error("Your search did not match any book results.");
+        toast.error("Your search did not match any book results");
 
         this.setState({
           books: [],
-          message: "Your search did not match any book results.",
+          message: "Your search did not match any book results",
           currentPage: 1
         });
       });

@@ -23,12 +23,12 @@ const NavBar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <NavLink className="nav-link heading-titles" to="/search">
-                Search
+                SEARCH
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link heading-titles" to="/saved">
-                Library
+                LIBRARY
               </NavLink>
             </li>
           </ul>

@@ -29,7 +29,7 @@ class Saved extends Component {
       await API.deleteBook(id).then(res => this.getSavedBooks());
     } catch (ex) {
       if (ex.response && ex.response.status === 404)
-        toast.error("This book has been deleted.");
+        toast.error("This book has been deleted");
       this.setState({ books: originalBooks });
     }
   };
@@ -49,11 +49,11 @@ class Saved extends Component {
               </div>
               <div className="p-2 bd-highlight">
                 <h1 className="heading-title mx-sm-3 mb-2">
-                  Google Books Search
+                  Google Books
                 </h1>
 
                 <h2 className="heading-subtitle mx-sm-3 mb-2 text-center">
-                  Showing {count} books in the database
+                  Showing {count} books in the Library
                 </h2>
               </div>
             </div>
@@ -86,7 +86,7 @@ class Saved extends Component {
             ) : (
               <div className="mockup-content">
                 <h2 className="brand-title text-center">
-                  No saved books in the database
+                  No saved books in the Library
                 </h2>
               </div>
             )}
