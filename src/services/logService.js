@@ -3,7 +3,7 @@ import * as Sentry from "@sentry/browser";
 
 function init() {
   Sentry.init({
-    dsn: "https://c060a25040344214b50b022db61e7ef5@sentry.io/1375248"
+    dsn: "https://fa0decdead19444b936a31077451d6ca@sentry.io/1432560"
   });
 }
 
