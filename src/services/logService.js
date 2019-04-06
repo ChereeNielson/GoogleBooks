@@ -1,3 +1,4 @@
+// https://sentry.io/cheree-nielson/googlebooks/getting-started/javascript-react/
 import * as Sentry from "@sentry/browser";
 
 function init() {

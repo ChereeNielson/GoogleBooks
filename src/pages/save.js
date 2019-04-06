@@ -43,17 +43,17 @@ class Saved extends Component {
               <div className="p-2 bd-highlight">
                 <img
                   className="image-250"
-                  src="/images/img-books-window.jpg"
-                  alt="React Google Books Search"
+                  src="/images/antiquebooks.jpg"
+                  alt="Google Books Search"
                 />
               </div>
               <div className="p-2 bd-highlight">
                 <h1 className="heading-title mx-sm-3 mb-2">
-                  React Google Books Search
+                  Google Books Search
                 </h1>
 
                 <h2 className="heading-subtitle mx-sm-3 mb-2 text-center">
-                  Showing {count} books in the database.
+                  Showing {count} books in the database
                 </h2>
               </div>
             </div>

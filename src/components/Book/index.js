@@ -37,7 +37,7 @@ const Book = ({
           <figure className="media-left">
             <p>
               <img className="image is-128xauto" src={image} alt={title} />
-              {/* <img class="image-250" src="/images/img-books-window.jpg" alt="React Google Books Search"></img> */}
+              {/* <img class="image-250" src="/images/antiquebooks.jpg" alt="Google Books Search"></img> */}
             </p>
           </figure>
           <div className="media-content">

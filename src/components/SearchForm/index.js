@@ -9,7 +9,7 @@ function SearchForm({ q, handleInputChange, handleFormSubmit }) {
           Search Book Title
         </label>
         <input
-          className="form-control heading-subtitle "
+          className="form-control heading-subtitle"
           id="Title"
           type="text"
           value={q}

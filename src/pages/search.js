@@ -67,16 +67,16 @@ class Search extends Component {
               <div className="order-sm-2 p-2 bd-highlight">
                 <img
                   className="image-250"
-                  src="/images/img-books-window.jpg"
-                  alt="React Google Books Search"
+                  src="/images/antiquebooks.jpg"
+                  alt="Google Books Search"
                 />
               </div>
               <div className="order-sm-1 p-2 bd-highlight">
                 <h1 className="heading-title mx-sm-3 mb-2">
-                  React Google Books Search
+                  Google Books Search
                 </h1>
                 <h2 className="heading-subtitle mx-sm-3 mb-2">
-                  Search for and Save Books of Interest.
+                  Search for and Save Books of Interest
                 </h2>
                 <SearchForm
                   handleInputChange={this.handleInputChange}
