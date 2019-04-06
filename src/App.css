@@ -1,14 +1,12 @@
 .brand-title {
-  /* font-family: "Lato", sans-serif; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 0.18em;
-  font-size: 1.25rem;
+  font-size: 1.10rem;
 }
 
 .heading-title {
-  /* font-family: "Lato", sans-serif; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
@@ -17,7 +15,6 @@
 }
 
 .heading-subtitle {
-  /* font-family: "Lato", sans-serif; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
@@ -27,7 +24,6 @@
 
 p,
 .p-article {
-  /* font-family: "Open Sans", sans-serif; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-size: 0.75rem;
@@ -67,7 +63,7 @@ p,
 .delete-button,
 .view-button {
   background-color: #fff;
-  color: #845007;
+  color: #2F4F4F;
   cursor: pointer;
   justify-content: center;
   padding-bottom: calc(0.375em - 1px);
@@ -95,6 +91,7 @@ p,
   margin-right: auto;
   width: 250px;
   height: auto;
+  padding-top: 10px;
 }
 
 .image.is-128xauto {
@@ -102,6 +99,7 @@ p,
   margin-right: auto;
   width: 128px;
   height: auto;
+  padding-top: 20px;
 }
 
 .mockup-content {
