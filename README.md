@@ -47,7 +47,7 @@ then...
 ---
 ### Hosted on Heroku
 
-A working version of the application can be found at [https://herokuapp.com/](https://herokuapp.com/ "Google Books Search")
+A working version of the application can be found at [https://search-googlebooks.herokuapp.com/](https://search-googlebooks.herokuapp.com/ "Search Google Books")
 
 ---
 ### What This Application Does
