@@ -5,27 +5,30 @@
   "main": "server.js",
   "private": true,
   "author": "Cheree Nielson",
-  "homepage": "https://chereenielson.github.io/GoogleBooks",
+  "homepage": "https://github.com/ChereeNielson/GoogleBooks#readme",
   "dependencies": {
     "@sentry/browser": "^5.0.5",
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
-    "concurrently": "^4.1.0",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "if-env": "^1.0.4",
-    "mongoose": "^5.4.21",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0",
-    "react-scripts": "2.1.8",
-    "react-toastify": "^5.0.0-rc.6"
+    "mongoose": "^5.4.21"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.7"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seed.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -35,14 +38,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ChereeNielson/GoogleBooks/issues"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  }
 }
